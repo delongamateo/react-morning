@@ -8,7 +8,7 @@ export default function MoviesListShort(props) {
         data: null
     })
 
-    const url = 'https://classes.codingbootcamp.cz/assets/classes/movie-api/top-movies.php'; // fill this in
+    const url = 'https://classes.codingbootcamp.cz/assets/classes/movie-api/top-movies.php';
 
     const loadData = async () => {
         if (url) {
